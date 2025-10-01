@@ -94,7 +94,7 @@ $(Reina - Mujer) + Hombre \approx Rey$
 
 | Prompt Mejorado |
 | :--- |
-| Actúa como un CFO con 20 años de experiencia en fusiones y adquisiciones internacionales. Estoy considerando expandir nuestra empresa de software SaaS al mercado alemán. Enumera los 5 principales riesgos financieros que debo presentar al Consejo de Administración, y para cada uno, sugiere una métrica clave (KPI) para monitorearlo.|
+| Actúa como un CFO con 20 años de experiencia en fusiones y adquisiciones internacionales. <br> Estoy considerando expandir nuestra empresa de software SaaS al mercado alemán. <br> Enumera los 5 principales riesgos financieros que debo presentar al Consejo de Administración, y para cada uno, sugiere una métrica clave (KPI) para monitorearlo.|
 
 -----
 
@@ -112,7 +112,7 @@ Para este prompt, necesitaremos un archivo de ejemplo.
 
 | Prompt Mejorado |
 | :--- |
-| He realizado una encuesta de satisfacción del cliente. Los puntos clave son: A cada cliente se le hicieron 4 preguntas, Experiencia en general, Calidad de la comida, velocidad de Entrega y Si el producto fue entregado adecuadamente o no. Quiero que redactes un correo electrónico para mi equipo directivo. El correo debe tener: 1. Un asunto claro y conciso. 2. Un párrafo introductorio de no más de 3 líneas. 3. Tres bullets points: uno para el hallazgo positivo y dos para las áreas de mejora. 4. Un llamado a la acción claro: agendar una reunión para definir un plan de acción.  |
+| He realizado una encuesta de satisfacción del cliente. <br> Los puntos clave son: A cada cliente se le hicieron 4 preguntas, Experiencia en general, Calidad de la comida, velocidad de Entrega y Si el producto fue entregado adecuadamente o no. <br> <br> Quiero que redactes un correo electrónico para mi equipo directivo. <br> El correo debe tener: <br> 1. Un asunto claro y conciso. <br> 2. Un párrafo introductorio de no más de 3 líneas. <br> 3. Tres bullets points: uno para el hallazgo positivo y dos para las áreas de mejora. <br> 4. Un llamado a la acción claro: agendar una reunión para definir un plan de acción.  |
 
 -----
 
@@ -120,27 +120,37 @@ Para este prompt, necesitaremos un archivo de ejemplo.
 
 | Prompt |
 | :--- |
-| Eres un clasificador de sentimientos de tweets. Tu tarea es analizar el texto de un tweet y clasificar el sentimiento que expresa en una sola palabra. Los sentimientos posibles son: 'happy', 'sad', 'fear', 'angry', 'surprise', 'irritating'.<br><br>A continuación, se muestran 10 ejemplos de tweets y su sentimiento asociado:<br>Tweet: " \#31: @Otep 🌠 ed ""im fvkin\* depressed [https://t.co/t1S92BIXwO](https://t.co/t1S92BIXwO)"""<br>Sentimiento: sad<br>Tweet: " \#60: @MrRemain is an Ultra-Remainer ed ""RT @SimonBruni: It's not a path, ""Let's go WTO"" is the UK having a nervous breakdown. We'll be the country that ends up on a park bench wea…"""<br>Sentimiento: fear<br>... (y así sucesivamente con todos los ejemplos)<br><br>Ahora, clasifica los siguientes tweets. Solo responde con el sentimiento:  |
+| Eres un clasificador de sentimientos de tweets. Tu tarea es analizar el texto de un tweet y clasificar el sentimiento que expresa en una sola palabra. Los sentimientos posibles son: 'happy', 'sad', 'fear', 'angry', 'surprise', 'irritating'.<br><br>A continuación, se muestran 10 ejemplos de tweets y su sentimiento asociado:<br>Tweet: " \#31: @Otep 🌠 ed ""im fvkin\* depressed [https://t.co/t1S92BIXwO](https://t.co/t1S92BIXwO)"""<br>Sentimiento: sad<br>Tweet: " \#60: @MrRemain is an Ultra-Remainer ed ""RT @SimonBruni: It's not a path, ""Let's go WTO"" is the UK having a nervous breakdown. We'll be the country that ends up on a park bench wea…"""<br>Sentimiento: fear<br>Tweet: " #7: @BabsMidd ed "RT @fireboyle: Someone shared a really fantastic speech and it reminded me of this from last March. This is an absolute masterclass in the…"" <br>Sentimiento: sad <br>Tweet: " #87: @moorsman ed "RT @karenspenley: I’m pleased to say this happened a lot this weekend. As we enter BBQ season, what will you be talking about? The most i…"" <br>Sentimiento: happy <br>Tweet: " #30: @眞琥 ed "@8o6p1y0a1n0n3u1 いつの絵でもダルさんは可愛いしかっこいい"" <br>Sentimiento: surprise <br>Tweet: " #86: @Kenny Masoko ed "RT @Sowellnomics: @kennymasoko Venezuela was once the most prosperous country in Latin America with the largest proven oil reserves on the…"" <br>Sentimiento: happy <br>Tweet: " #2: @Post-liberal Bot ed "Did you like the fact that I included the Jesuits this time? @glum_bucket dont want them to feel left out."" <br>Sentimiento: sad <br>Tweet: " #34: @The Norbert_empire™ 🏰 ed "@Wyclif256 Psalms 16:5 Lord, you alone are my inheritance, my cup of blessing. You guard all that is mine.#ApostleGraceInNairobi #KICC #1stJUNE"" <br>Sentimiento: happy <br>Tweet: " #21: @Asset Harbour ed "Recent research reveals 44% of UK adults do not think they will have enough money to enjoy their retirement. Whether you're thinking about saving into a pension for the first time, making decisions for your retirement or giving your child a financial head start, we can help. https://t.co/16X2NqF6Qt"" <br>Sentimiento: happy <br>Tweet: "Tweet #9: @#BlackChina☣️® tweeted "@MbalulaFikile @SpheDludla @Aveewear1 @AfriNewsAgency Brika nyana tuu we still mourning our granny we can’t be jaiving all over , rejoice not allowed in our culture https://t.co/MHK3YQtgAt"" <br>Sentimiento: sad <br><br>Ahora, clasifica los siguientes tweets. Solo responde con el sentimiento:  |
 
 | Tweet a clasificar 1 |
 | :--- |
-| "@kimilabs25 ed ""RT @AishaZ23: I don’t want to ever forget this night where there ordinary guys made Magic Happen and then stayed to watch the fireworks\! @B…"""  |
+| @kimilabs25 ed ""RT @AishaZ23: I don’t want to ever forget this night where there ordinary guys made Magic Happen and then stayed to watch the fireworks\! @B…""|
 
 | Tweet a clasificar 2 |
 | :--- |
-| "@Kathleen Lyons ed ""Win a $250 jovial Shopping Spree\! [https://t.co/nJIRVWiYgj](https://t.co/nJIRVWiYgj)"  |
+| @Kathleen Lyons ed ""Win a $250 jovial Shopping Spree\! [https://t.co/nJIRVWiYgj](https://t.co/nJIRVWiYgj)|
 
 | Tweet a clasificar 3 |
 | :--- |
-| """Vi a Johnny de 'Guess Who's Home' y mi corazón se me encogió un poco."""  |
+| Vi a Johnny de 'Guess Who's Home' y mi corazón se me encogió un poco.|
 
 -----
 
 ## Táctica 4: Cadena de pensamiento (Chain-of-Thought)
 
-| Prompt |
+> Problema: Un agricultor tiene 15 animales en su granja, que son una mezcla de gallinas y ovejas. En total, cuenta 44 patas. ¿Cuántas gallinas y cuántas ovejas tiene el agricultor?
+
+| Prompt Débil |
 | :--- |
-| "Tengo un presupuesto de marketing de $100,000. El 60% debe ir a canales digitales y el 40% a canales tradicionales. Dentro de lo digital, el 50% debe ser para Google Ads, el 30% para Social Media y el 20% para Email Marketing. Calcula el monto final para Google Ads. Determina el paso a paso antes de darme la respuesta final."  |
+| Un agricultor tiene 15 animales en su granja, entre gallinas y ovejas. En total, hay 44 patas. ¿Cuántas gallinas y cuántas ovejas tiene? |
+
+| Salida Esperada |
+| :--- |
+| El agricultor tiene 8 gallinas y 7 ovejas.|
+
+| Prompt Mejorado |
+| :--- |
+| Un agricultor tiene 15 animales en su granja, entre gallinas y ovejas. En total, hay 44 patas. ¿Cuántas gallinas y cuántas ovejas tiene? <br> Razona paso a paso para llegar a la solución. |
 
 -----
 
