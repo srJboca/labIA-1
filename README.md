@@ -100,7 +100,7 @@ $(Reina - Mujer) + Hombre \approx Rey$
 
 ## Táctica 2: La especificidad y el formato de salida
 
-Para este prompt, necesitaremos un archivo de ejemplo. 
+Para este prompt, necesitaremos [este](datos-encuesta-nps.csv) archivo de ejemplo. 
 
 | Prompt Débil |
 | :--- |
