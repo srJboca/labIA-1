@@ -138,19 +138,16 @@ Para este prompt, necesitaremos un archivo de ejemplo.
 
 ## Táctica 4: Cadena de pensamiento (Chain-of-Thought)
 
-> Problema: Un agricultor tiene 15 animales en su granja, que son una mezcla de gallinas y ovejas. En total, cuenta 44 patas. ¿Cuántas gallinas y cuántas ovejas tiene el agricultor?
+> Problema: Necesitamos organizar un evento donde se sentarán 10 personas, distribuidas en 5 parejas casadas, alrededor de una mesa redonda. Existe una condición social estricta: ninguna persona puede sentarse junto a su propio cónyuge.
 
-| Prompt Débil |
-| :--- |
-| Un agricultor tiene 15 animales en su granja, entre gallinas y ovejas. En total, hay 44 patas. ¿Cuántas gallinas y cuántas ovejas tiene? |
+Para este ejercicio no utilizaremos un modelo tradicional, vamos a algo un poco mas avanzado. [Google AI Studio](https://aistudio.google.com/)
 
-| Salida Esperada |
-| :--- |
-| El agricultor tiene 8 gallinas y 7 ovejas.|
+- Ejercicio 1: Probaremos con un modelo que no soporte "pensar"
+- Ejercicio 2: Probaremos con un modelo mas sofisticado, pero que pueda "pensar"
+- Ejercicio 3: Dejaremos que el modelo piense
+- Ejercicio 4: Se lo pediremos explicitamente
 
-| Prompt Mejorado |
-| :--- |
-| Un agricultor tiene 15 animales en su granja, entre gallinas y ovejas. En total, hay 44 patas. ¿Cuántas gallinas y cuántas ovejas tiene? <br> Razona paso a paso para llegar a la solución. |
+> Prompt inicial: `¿De cuántas maneras pueden sentarse cinco parejas casadas alrededor de una mesa redonda si no hay cónyuges sentados uno al lado del otro?`
 
 -----
 
