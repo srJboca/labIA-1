@@ -134,7 +134,9 @@ Para este prompt, necesitaremos [este](datos-encuesta-nps.csv) archivo de ejempl
 | :--- |
 | Vi a Johnny de 'Guess Who's Home' y mi corazón se me encogió un poco.|
 
+
 Si quieres probar con una base de tweets mas grande da clic [aquí](tweets.csv)
+
 -----
 
 ## Táctica 4: Cadena de pensamiento (Chain-of-Thought)
