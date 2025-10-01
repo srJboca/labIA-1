@@ -134,6 +134,7 @@ Para este prompt, necesitaremos [este](datos-encuesta-nps.csv) archivo de ejempl
 | :--- |
 | Vi a Johnny de 'Guess Who's Home' y mi corazón se me encogió un poco.|
 
+Si quieres probar con una base de tweets mas grande da clic [aquí](tweets.csv)
 -----
 
 ## Táctica 4: Cadena de pensamiento (Chain-of-Thought)
@@ -153,7 +154,7 @@ Para este ejercicio no utilizaremos un modelo tradicional, vamos a algo un poco 
 
 ## Ejercicio práctico
 
-Ahora, apliquemos estas tácticas a un escenario real de negocio.  Tenemos un conjunto de datos, `rotacion-empleados.csv`, que contiene información sobre empleados y su historial en la empresa.  El objetivo de negocio es reducir la rotación de personal voluntaria.  Veamos cómo el prompt engineering nos ayuda a extraer inteligencia estratégica de estos datos. 
+Ahora, apliquemos estas tácticas a un escenario real de negocio.  Tenemos un conjunto de datos, `rotacion-empleados.csv` que puedes descargar [aquí](rotacion-empleados.csv), que contiene información sobre empleados y su historial en la empresa.  El objetivo de negocio es reducir la rotación de personal voluntaria.  Veamos cómo el prompt engineering nos ayuda a extraer inteligencia estratégica de estos datos. 
 
 ### Su primera misión / La descriptiva
 
