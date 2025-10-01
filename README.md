@@ -10,9 +10,9 @@ Es simplemente el proceso de diseñar las instrucciones que le damos a una IA.  
 
 ## El Costo de los Prompts Débiles vs. el ROI de los Prompts Efectivos
 
-Un prompt débil como `dame ideas de marketing` puede costar horas de trabajo refinando resultados genéricos. 
+Un prompt débil como `Dame ideas de marketing` puede costar horas de trabajo refinando resultados genéricos. 
 
-Un prompt efectivo como 'Actúa como un CMO para una marca de lujo B2C. Genera 3 estrategias de marketing de bajo costo para aumentar la retención de clientes en un 15% este trimestre, enfocándote en canales digitales' puede generar una estrategia casi lista para implementar.
+Un prompt efectivo como `Actúa como un CMO para una marca de lujo B2C. Genera 3 estrategias de marketing de bajo costo para aumentar la retención de clientes en un 15% este trimestre, enfocándote en canales digitales` puede generar una estrategia casi lista para implementar.
 
 La diferencia es un ROI masivo en tiempo y calidad de ideas. 
 
@@ -28,13 +28,14 @@ El laboratorio tiene la siguiente estructura.
 
 | Prompt Débil | Salida Esperada | Prompt Mejorado |
 | :--- | :--- | :--- |
-| Con este fondo, encontrarás los prompts que se consideran débiles, esos que no nos van a aportar, pero con el que nos sentiremos muy identificados porque quizá, sea la forma en que más interactuemos con este tipo de herramientas.  | Con este fondo, encontrarás la salida esperada de los prompts débiles, la intención es que veamos lo “predecible” que puede llegar a ser esta tecnología si no la aprovechamos.  | Con este fondo, encontrarás los prompts que se consideran “Mejorados”, lo pongo entre comillas porque este es un proceso de mejora continua.  |
+| Así encontrará los prompts que se consideran débiles, esos que no nos van a aportar, pero con el que nos sentiremos muy identificados porque quizá, sea la forma en que más interactuemos con este tipo de herramientas.  | Así encontrará la salida esperada de los prompts débiles, la intención es que veamos lo “predecible” que puede llegar a ser esta tecnología si no la aprovechamos.  | Así encontrará los prompts que se consideran “Mejorados”, lo pongo entre comillas porque este es un proceso de mejora continua.  |
 
 -----
 
 ## Paso a paso del laboratorio
 
-Diríjase a su herramienta preferida, puede ser ChatGPT, Gemini, Claude, Perplexity o con el que se sienta más cómodo. Este laboratorio puede tener algunas variaciones en la respuesta esperada dependiendo de la herramienta utilizada; el objetivo de este laboratorio es que dichas variaciones no dependan de la herramienta sino de la forma en que se use la tecnología. 
+Diríjase a su herramienta preferida, puede ser [ChatGPT](https://www.chat.com) , [Gemini](https://gemini.google.com/), [Claude](https://claude.ai/), [Perplexity](https://www.perplexity.ai/) o con el que se sienta más cómodo. 
+Este laboratorio puede tener algunas variaciones en la respuesta esperada dependiendo de la herramienta utilizada; el objetivo de este laboratorio es que dichas variaciones no dependan de la herramienta sino de la forma en que se use la tecnología. 
 
 ### ¿Es la IA realmente Inteligente?
 
@@ -44,11 +45,11 @@ Antes de iniciar con las tácticas, realizaremos una serie de ejercicios prácti
 
 Vaya a la IA de su preferencia y pídale que cree un reloj de pulsera de manecillas, que sea hiperrealista y que genere dicha imagen. 
 
-> **Prompt de ejemplo:** Crea una imagen de un reloj de pulsera con manecillas hiper realista 
+> **Prompt de ejemplo:** `Crea una imagen de un reloj de pulsera con manecillas hiper realista`
 
 Es posible que su reloj tenga una hora “aleatoria”.  Ahora, necesitamos calibrar la hora del reloj. Elija una hora al azar y calibre dicha hora en la imagen generada por la IA seleccionada. Es una tarea simple, ¿no? Recuerde que necesitamos un reloj hiperrealista. 
 
-> **Prompt de ejemplo:** Ahora quiero que el reloj marque las 6:05 
+> **Prompt de ejemplo:** `Ahora quiero que el reloj marque las 6:05` 
 
 #### ¿Memoria o pensamiento?
 
@@ -58,7 +59,26 @@ Vaya a la IA de su preferencia, iremos pasando frases muy conocidas de las cuale
   - Ojos que no ven… 
   - El que nada debe… 
 
-Ahora realizaremos otro experimento, para este, no utilizaremos la IA, simplemente haremos una votación personal. 
+#### Ahora realizaremos otro experimento, para este, no utilizaremos la IA, simplemente haremos una votación personal.
+
+##### Metodología del ejercicio 
+
+Van a ver una frase, puede que tenga sentido, puede que no, el objetivo es que simplemente seleccionen la palabra que consideran es la palabra que debe llenar el vacio o debe continuar en la frase.
+
+| Frase | Posibles palabras (Selecciona una) |
+| :---  | :---                               |
+| El elefante es ... | &#x2713; Un mamifero <br> &#x2713; el animal terrestre mas grande <br> &#x2713; Gris <br> &#x2713; Un animal herbivoro <br> &#x2713; Inteligente |
+| En diciembre el clima es ... | &#x2713; Frio <br> &#x2713; Lluvioso <br> &#x2713; Templado <br> &#x2713; Variable <br> &#x2713; Cálido |
+| Las vacas producen ... | &#x2713; Leche <br> &#x2713; Carne <br> &#x2713; Metano <br> &#x2713; Alimento <br> &#x2713; Estiercol |
+| Una sonrisa representa ... | &#x2713; Felicidad <br> &#x2713; Alegría <br> &#x2713; Amabilidad <br> &#x2713; Bienestar <br> &#x2713; Positividad |
+
+Así como funcionó este ejercicio, asi mismo funciona una inteligencia artificial, basandose en unos datos de entrada, realiza una preseleccion de posibles palabras siguientes y aleatoriamente selecciona una de dichas palabras, cada palabra tendrá una probabilidad y dicha probabilidad será utilizada basandose en un parametro llamado Temperatura.
+
+#### Como ocurre todo detrás de camaras?
+
+$Hombre + Hijo \approx Papá$
+
+$(Reina - Mujer) + Hombre \approx Rey$
 
 -----
 
@@ -70,11 +90,11 @@ Ahora realizaremos otro experimento, para este, no utilizaremos la IA, simplemen
 
 | Salida Esperada |
 | :--- |
-| "Una lista genérica de riesgos: competencia, regulación, diferencias culturales, logística, etc."  |
+| Una lista genérica de riesgos: competencia, regulación, diferencias culturales, logística, etc.|
 
 | Prompt Mejorado |
 | :--- |
-| "Actúa como un CFO con 20 años de experiencia en fusiones y adquisiciones internacionales. Estoy considerando expandir nuestra empresa de software SaaS al mercado alemán. Enumera los 5 principales riesgos financieros que debo presentar al Consejo de Administración, y para cada uno, sugiere una métrica clave (KPI) para monitorearlo."  |
+| Actúa como un CFO con 20 años de experiencia en fusiones y adquisiciones internacionales. Estoy considerando expandir nuestra empresa de software SaaS al mercado alemán. Enumera los 5 principales riesgos financieros que debo presentar al Consejo de Administración, y para cada uno, sugiere una métrica clave (KPI) para monitorearlo.|
 
 -----
 
@@ -160,3 +180,25 @@ Un buen líder no solo mira el pasado, sino que se anticipa al futuro. Podemos u
 ### Su tercera y última misión / Uplift Modeling
 
 Finalmente, el nivel más alto de estrategia: no solo predecir quién se irá, sino determinar qué acción tendrá el mayor impacto para retenerlos.  Esto se acerca al concepto de 'Uplift Modeling'.  Tenemos una idea, queremos darles a los empleados opciones sobre las acciones de la compañía (Stock Options), sin embargo, no tenemos ni idea de si eso va a servir o no, necesitamos de tu ayuda. 
+
+-----
+
+#### Se acuerdan del ejercicio de la seleccion de siguientes palabras?
+
+```
+Tu mision es demostrar como funcionan los modelos de LLM.
+
+Para este ejercicio, te voy a entregar una frase y necesito que me entregues las 5 palabras mas probables que continuan, cada una con su probabilidad y finalmente selecciones una, no debes responder nada mas.
+
+Por ejemplo:
+
+Frase de entrada:
+El sol es ...
+
+Respuesta esperada:
+Una estrella [ Probabilidad del 0.4]
+Parte del sistema solar [Probabilidad de 0.2]
+Amarillo [Probabilidad de 0.1]
+Una bola de fuego [Probabilidad de 0.05]
+Hermoso [Probabilidad de 0.05]
+```
